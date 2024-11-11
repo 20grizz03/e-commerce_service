@@ -1,9 +1,6 @@
 package main
 
-import (
-	"github.com/go-chi/chi/v5"
-	"net/http"
-)
+import "e-com/app/internal/handlers"
 
 var database struct {
 	Username string
@@ -13,7 +10,5 @@ var database struct {
 }
 
 func main() {
-	router := chi.NewRouter()
-
-	router.Get("/products",  {})
+	handlers.StartRouter()
 }

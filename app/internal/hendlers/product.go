@@ -1,3 +1,0 @@
-package hendlers
-
-func Products() {}
