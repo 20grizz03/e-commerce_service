@@ -1,4 +1,4 @@
-module e-commerce_service
+module e-com
 
 go 1.22.5
 
