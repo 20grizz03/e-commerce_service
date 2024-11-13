@@ -1,10 +1,5 @@
 package main
 
-import (
-	"github.com/go-chi/chi/v5"
-	"net/http"
-)
-
 var database struct {
 	Username string
 	Password string
@@ -13,7 +8,5 @@ var database struct {
 }
 
 func main() {
-	router := chi.NewRouter()
 
-	router.Get("/products",  {})
 }
