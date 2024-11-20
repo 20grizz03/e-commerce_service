@@ -1,5 +1,6 @@
 package main
 
+import "e-com/app/internal/handlers"
 var database struct {
 	Username string
 	Password string
@@ -8,5 +9,5 @@ var database struct {
 }
 
 func main() {
-
+	handlers.StartRouter()
 }
